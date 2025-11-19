@@ -14111,6 +14111,11 @@ h6.title-color2 a:hover {
 
     text-align: center !important;
   }
+
+  .ppttt {
+
+    margin-bottom: 30px !important;
+  }
 }
 
 .bkc1 {
@@ -14189,6 +14194,11 @@ video {
 
 .bdrrd {
   background-color: aliceblue;
-    box-shadow: 2px 2px 25px 15px #dddddd;
+    box-shadow: 2px 2px 15px 10px #dddddd;
     border-radius: 30px;
+    padding-left: 40px;
+}
+
+.pl-22 {
+  margin-left: 22px;
 }
