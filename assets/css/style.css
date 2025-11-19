@@ -14182,3 +14182,7 @@ video {
   border-radius: 30px;
   background-color: #06a0fa;
 }
+
+.bbr {
+  border: 3px solid #06a0fa;
+}
