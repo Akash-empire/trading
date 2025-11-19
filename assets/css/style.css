@@ -1170,6 +1170,7 @@ i[class*=" flaticon-"]:before {
   border-radius: 0;
   padding: 5px 20px;
   font-size: 16px;
+  font-family: "Farro", sans-serif !important;
   border: none;
   background-color: var(--theme-color);
   color: var(--white-color);
@@ -1302,6 +1303,7 @@ i[class*=" flaticon-"]:before {
 .vs-btn.style-1 {
   color: var(--white-color);
   background-color: var(--theme-color);
+  font-family: "Farro", sans-serif !important;
 }
 
 .vs-btn.style-1 i {
@@ -14183,7 +14185,7 @@ video {
 .bbn:hover {
   color: #ffffff;
   border: 1px solid #06a0fa;
-  padding: 10px 25px;
+  padding: 7px 22px;
   border-radius: 30px;
   background-color: #06a0fa;
 }
@@ -14193,7 +14195,7 @@ video {
 }
 
 .bdrrd {
-  background-color: aliceblue;
+  background-color: rgb(248, 252, 255);
     box-shadow: 2px 2px 15px 10px #dddddd;
     border-radius: 30px;
     padding-left: 40px;
