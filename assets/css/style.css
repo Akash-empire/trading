@@ -14186,3 +14186,9 @@ video {
 .bbr {
   border: 3px solid #06a0fa;
 }
+
+.bdrrd {
+  background-color: aliceblue;
+    box-shadow: 2px 2px 25px 15px #dddddd;
+    border-radius: 30px;
+}
