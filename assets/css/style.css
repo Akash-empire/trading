@@ -14052,6 +14052,11 @@ h6.title-color2 a:hover {
 
 @media (min-width: 767px) {
 
+  .ddnn {
+
+    display: none;
+  }
+
   .etb {
 
     font-size: 110px !important;
