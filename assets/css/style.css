@@ -14082,6 +14082,25 @@ h6.title-color2 a:hover {
 
 @media (max-width: 767px) {
 
+  .jcc {
+
+    text-align: justify;
+  }
+
+  .fdc {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .bbn {
+    color: #06a0fa;
+    border: 1px solid;
+    padding: 5px 20px;
+    border-radius: 30px;
+    width: 175px;
+    text-align: center;
+}
+
   .etb {
 
     font-size: 45px !important;
