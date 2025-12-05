@@ -4501,6 +4501,7 @@ i[class*=" flaticon-"]:before {
 .feature_style1:hover {
   box-shadow: none;
   border-color: var(--theme-color);
+  background-color: #bee6ff;
 }
 
 .feature_style1:hover .feature_icon {
