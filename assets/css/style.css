@@ -14229,3 +14229,41 @@ video {
 .pl-22 {
   margin-left: 22px;
 }
+
+
+.scroll-wrapper {
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 40px 0;
+}
+
+.scroll-row {
+    display: inline-flex;
+    gap: 80px;
+}
+
+.scroll-row img {
+    width: 200px;
+    height: 50px;
+    filter: drop-shadow(0 3px 6px rgba(0,0,0,0.2));
+}
+
+/* Row 1 – left to right */
+.scroll-right .scroll-row {
+    animation: scroll-right 11s linear infinite;
+}
+
+@keyframes scroll-right {
+    0%   { transform: translateX(-50%); }
+    100% { transform: translateX(0); }
+}
+
+/* Row 2 – right to left */
+.scroll-left .scroll-row {
+    animation: scroll-left 11s linear infinite;
+}
+
+@keyframes scroll-left {
+    0%   { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
